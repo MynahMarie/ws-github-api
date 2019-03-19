@@ -1,4 +1,4 @@
-#### This is a fork from m4v15's fork of the original founders and coders repo, to use fetch instead of XHR requests in the solution.
+#### This is a fork the original founders and coders repo, to use fetch instead of XHR requests in the solution.
 
 # workshop-APIs
 
