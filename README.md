@@ -1,4 +1,4 @@
-#### This is a fork from the original founders and coders repo, to use fetch instead of XHR requests in the solution
+#### This is a fork from m4v15's fork of the original founders and coders repo, to use fetch instead of XHR requests in the solution.
 
 # workshop-APIs
 
@@ -38,7 +38,7 @@ Once you've got your access token, you can add it to the URLs you call like this
 
 `https://api.github.com/users/octocat/orgs?access_token=YOUR_ACCESS_TOKEN`
 
-Try and complete Task 1 with at least 2 tests and don't rush ahead to the challenges. This is the most important part of today's workshop. The other parts should be treated as extra challenges.
+Try and complete Task 1 and don't rush ahead to the challenges. This is the most important part of today's workshop. The other parts should be treated as extra challenges.
 
 ## Task 1 (45 mins - 1 hour)
 
@@ -87,6 +87,6 @@ Prepare for a quick 5-minute presentation in pairs on your findings!
 
 ## Solution!
 
-There are many ways to go about this challenge. To see a working solution (to part 1 + challenge 1) pull down the branch "solution" and check out solution.js (and the tests!).
+There are many ways to go about this challenge. To see a working solution (to part 1 + challenge 1) pull down the branch "solution" and check out solution.js.
 
 Disclosure: it took me much longer than 2 hours to perfect my solution!
