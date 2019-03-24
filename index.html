@@ -10,7 +10,7 @@
 <body>
   <!-- First use API calls to populate the following sections of the DOM with your own data -->
   <a id="github-user-link" href="#" target="blank">
-    <h1 id="github-user-handle">Your name here</h1>
+    <h1 id="github-user-handle">Username</h1>
   </a>
   <img src="#" alt="gitHub-avatar" id="github-user-avatar" />
   <p id="repos">Number of repos:&nbsp;
@@ -26,9 +26,10 @@
   </p>
   <hr />
 
-  <!-- let's focus on one of your repos - the first in the list! we'll have to make at least one more API call in order to get all the info needed, uncomment the code below! -->
+  <!-- let's focus on one of your repos - the first in the list! we'll have to make
+  at least one more API call in order to get all the info needed, uncomment the code below! -->
 
-  <!-- <h3>My top repo</h3>
+  <h3>My top repo</h3>
   <a id="github-repo-link" href="#" target="blank">
     <h4 id="github-repo-name">Repo name here</h4>
   </a>
@@ -43,7 +44,13 @@
   </p>
   <p>Contributors:&nbsp;
     <span id="github-repo-contributors"></span>
-  </p> -->
+  </p>
+
+  <h3>Find a user on Github</h3>
+  <form>
+  <input type="text" id="github-username" placeholder="Github username" />
+  <input type="submit" id="submitBtn"/>
+</form>
   <script src="./public/index.js"></script>
 </body>
 
