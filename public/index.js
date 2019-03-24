@@ -23,6 +23,7 @@ function getUserInfos() {
     })
     .then(function(data) {
       document.getElementById('github-user-handle').textContent = data.name;
+      document.getElementById('github-user-link').href = data.html_url;
       document.getElementById('github-user-avatar').src = data.avatar_url;
       document.getElementById('github-user-repos').textContent = data.public_repos;
     })
@@ -87,8 +88,11 @@ function getUserInfos() {
 }
 
 function resetInfos() {
+  languages = [];
+  stars = 0;
   document.getElementById('github-user-handle').textContent = "";
   document.getElementById('github-user-avatar').src = "#";
+  document.getElementById('github-user-link').href = "#";
   document.getElementById('github-user-repos').textContent = "";
   document.getElementById('github-repos-stars').textContent = "";
   document.getElementById('github-repos-languages').textContent = "";
